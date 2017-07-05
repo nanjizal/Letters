@@ -1,6 +1,8 @@
 # Letters
 Letters experimental warp of simple letters
 
+![lettersgrab](https://user-images.githubusercontent.com/20134338/27874568-e443cdc2-61a7-11e7-9b64-5c57994d30c8.jpg)
+
 [demo 1](https://rawgithub.com/nanjizal/Letters/master/web/index.html)
 
 [demo 2](https://rawgithub.com/nanjizal/Letters/master/web/textPathway.html)
