@@ -1,0 +1,39 @@
+{
+
+  luxe:{
+    window: {
+      width:600,
+      height:400,
+      title:'ExtractFillTrianglesFromObjects',
+      fullscreen:false,
+      resizable:true,
+      borderless:false
+    }
+  },
+
+  project : {
+    name : 'ExtractFillTrianglesFromObjects',
+    version : '0.0.3',
+    author : 'Justinfront',
+
+    app : {
+	  main: 'letters.luxe.TriangleFillExample',
+	  output: 'luxe_bin',
+      name : 'ExtractFillTrianglesFromObjects',
+      package : 'lib.letters.examples'
+    },
+
+    build : {
+      dependencies : {
+        luxe : '*',
+		hxDaedalus : '*'
+      }
+    },
+
+    files : {
+      assets : 'assets/'
+    }
+
+  }
+
+}

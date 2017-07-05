@@ -1,0 +1,38 @@
+
+-D windowWidth=1000
+-D windowHeight=800
+-main letters.paragraphPath.ParagraphPathDemo
+-cp src
+-js web/textPathway.js
+#-dce full
+-D haxe3
+-cmd open -a /Applications/firefox.app web/textPathway.html
+
+#Javascript build file
+-resource resources/a.txt@aletter
+-resource resources/b.txt@bletter
+-resource resources/c.txt@cletter
+-resource resources/d.txt@dletter
+-resource resources/e.txt@eletter
+-resource resources/f.txt@fletter
+-resource resources/g.txt@gletter
+-resource resources/h.txt@hletter
+-resource resources/i.txt@iletter
+-resource resources/j.txt@jletter
+-resource resources/k.txt@kletter
+-resource resources/l.txt@lletter
+-resource resources/m.txt@mletter
+-resource resources/n.txt@nletter
+-resource resources/o.txt@oletter
+-resource resources/p.txt@pletter
+-resource resources/q.txt@qletter
+-resource resources/r.txt@rletter
+-resource resources/s.txt@sletter
+-resource resources/t.txt@tletter
+-resource resources/u.txt@uletter
+-resource resources/v.txt@vletter
+-resource resources/w.txt@wletter
+-resource resources/x.txt@xletter
+-resource resources/y.txt@yletter
+-resource resources/z.txt@zletter
+#-resource resources/kernPairs.txt@kernPairs  - not used

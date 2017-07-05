@@ -1,0 +1,15 @@
+#Java build file not quite working as well as JS target
+# some letters such as 'c' are not working?
+# the multiple resource files for the svg text do not seem to work so inlined info
+# the getDim for a letter does not seem to properly crop the letter to it's extents
+#-D windowTitle=Java Template
+#-D windowWidth=700
+#-D windowHeight=500
+-cp src
+-java java
+-main letters.ExampleLetters
+-D haxe3
+-cmd cd java/src
+-cmd javac letters/ExampleLetters.java -d ../
+-cmd cd ..
+-cmd java letters/ExampleLetters
